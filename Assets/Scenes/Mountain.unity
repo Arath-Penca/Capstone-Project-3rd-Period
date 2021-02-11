@@ -356,8 +356,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 393255499
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -2380706824339845496, guid: f1f605bb23b6cfd4182684a61b98b04c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -769,8 +769,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 393255499
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -2989506056616733447, guid: f1f605bb23b6cfd4182684a61b98b04c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -851,8 +851,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -77286517
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: af1002b87c9b94d45b6f2c13925db3ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2307,7 +2307,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -10, y: -7, z: 0}
-  m_Size: {x: 21, y: 10, z: 1}
+  m_Size: {x: 21, y: 11, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -2395,8 +2395,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -77286517
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: af1002b87c9b94d45b6f2c13925db3ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
