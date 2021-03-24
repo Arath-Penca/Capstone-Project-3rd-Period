@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+    bool isJumping = false;
    public void PlayGame()
     {
        
@@ -13,6 +15,13 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        if (Input.GetKey(KeyCode.G))
+        {
+            Application.Quit();
+        }
         Debug.Log("working");
     }
+
+
+
 }
