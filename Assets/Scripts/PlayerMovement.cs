@@ -1,5 +1,6 @@
 ﻿
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -20,25 +21,52 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isJumping = false;
     private bool isRunning = false;
-    private bool airAttackMode = false;
+    private bool isAttackingBasic = false;
+    private bool isAttackingComplex = false;
+    public int health = 6;
+
+    private string roomName;
+
+
+    private float originalGravity;
 
     // Start is called before the first frame update
     void Start()
     {
-       /* rigidbody2D = GetComponent<Rigidbody2D>();
-        xStart = (float)transform.position.x;
-        yStart = (float)transform.position.y;*/
+        /* rigidbody2D = GetComponent<Rigidbody2D>();
+         xStart = (float)transform.position.x;
+         yStart = (float)transform.position.y;*/
+        originalGravity = rigidbody.gravityScale;
+        Scene scene = SceneManager.GetActiveScene();
+        roomName = scene.name;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        isAttackingBasic = isPlaying(animator, "isAttackingBasic", 0);
+
+        float nerfMovePower = 0.0f;
+        float nerfJumpPower = 0.0f;
+
+        //Debug.Log(animator.GetCurrentAnimatorStateInfo(0).ToString());
+        //Debug.Log(animator.GetCurrentAnimatorStateInfo(0));
+
+        if (isAttackingBasic)
+        {
+            nerfJumpPower = -9.0f;
+        }
+        else
+        {
+            nerfJumpPower = 0.0f;
+        }
+
 
         if (Input.GetKey(KeyCode.A))
         {
             rigidbody.velocity = new Vector2(-movePower, rigidbody.velocity.y);
             transform.localScale = new Vector2(-1, 1);
+            Debug.Log(nerfJumpPower);
         }
 
         if (Input.GetKey(KeyCode.D))
@@ -47,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector2(1, 1);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && animator.GetBool("isJumping") != true)
+        if (Input.GetKeyDown(KeyCode.W) && animator.GetBool("isJumping") != true)
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpPower);
         }
@@ -61,30 +89,36 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isRunning", false);
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S) && animator.GetBool("isJumping") == false)
         {
-            //rigidbody.velocity = new Vector2(rigidbody.velocity.x, 5.0f);
             animator.SetBool("isAttackingBasic", true);
-            //animator.SetBool("isAttackingBasic", false);
-            Debug.Log("something something pres s");
-        }
-        else if(animator.GetBool("isAttackingBasic") == true)
-        {
-            animator.SetBool("isAttackingBasic", false);
         }
 
-
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) && animator.GetBool("isJumping"))
         {
-            airAttackMode = true;
-            //rigidbody.velocity = new Vector2(rigidbody.velocity.x, 5.0f);
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0f);
             animator.SetBool("isAttackingComplex", true);
-
-        }else if(animator.GetBool("isAttackingComplex") == true)
+            rigidbody.gravityScale = originalGravity + 1;
+        }else if(animator.GetBool("isAttackingComplex") == false)
         {
-            animator.SetBool("isAttackingComplex", false);
+            rigidbody.gravityScale = originalGravity;
         }
 
+        if (animator.GetBool("isAttackingComplex") && !animator.GetBool("isJumping"))
+        {
+            rigidbody.velocity = new Vector2(Mathf.Lerp(rigidbody.velocity.x, 0, 0.5f), rigidbody.velocity.y);
+        }
+
+        if(animator.GetBool("isJumping") && animator.GetBool("isAttackingSmash") == false  && Input.GetKeyDown(KeyCode.S) && animator.GetBool("isAttackingComplex") == false)
+        {
+            animator.SetBool("isAttackingSmash", true);
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, -20f);
+        }
+
+        if(health <= 0)
+        {
+            SceneManager.LoadScene(roomName);
+        }
         
         //Debug.Log(animator.GetBool("isAttackingComplex"));
         
@@ -106,5 +140,23 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position = new Vector2(xStart, yStart);
         }*/
+    }
+
+    bool isPlaying(Animator anim, string stateName, int layer)
+    {
+        if (anim.GetCurrentAnimatorStateInfo(layer).IsName(stateName) &&
+                anim.GetCurrentAnimatorStateInfo(layer).normalizedTime < 1.0f)
+            return true;
+        else
+            return false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "SlimeAttack")
+        {
+            Debug.Log("Getting attacked");
+            health--;
+        }
     }
 }

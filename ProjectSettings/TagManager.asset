@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - BasicBlade
+  - ComplexBlade
+  - SmashBlade
+  - Enemy
+  - SlimeAttack
   layers:
   - Default
   - TransparentFX

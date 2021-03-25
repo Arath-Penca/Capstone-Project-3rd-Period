@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: d121681d4f4f01341879b7090197259c
+  - enabled: 1
+    path: Assets/Scenes/Mountain.unity
+    guid: 2496782cb29df0b43ae78bf79d9d80be
+  - enabled: 1
+    path: Assets/Scenes/Tavern.unity
+    guid: 125fce2aafaa2954590b8f2c1b268ca8
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: 9620516711c1e87498c6b5dff26a1b36
   m_configObjects: {}

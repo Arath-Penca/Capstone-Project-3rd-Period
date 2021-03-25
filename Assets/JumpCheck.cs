@@ -25,8 +25,22 @@ public class JumpCheck : MonoBehaviour
         if(collision.tag == "Ground")
         {
             isJumping = false;
+
+
+            if (characterAnimator.GetBool("isAttackingSmash"))
+            {
+                characterAnimator.SetBool("isAttackingSmash", false);
+            }
+
+            if (characterAnimator.GetBool("isAttackingComplex"))
+            {
+                characterAnimator.SetBool("isAttackingComplex", false);
+            }
+
             characterAnimator.SetBool("isJumping", false);
-            Debug.Log("doing stuff;");
+
+            
+            //Debug.Log("doing stuff;");
             Debug.Log("grounded");
         }
     }
@@ -36,8 +50,10 @@ public class JumpCheck : MonoBehaviour
         if(collision.tag == "Ground")
         {
             isJumping = true;
+
+
             characterAnimator.SetBool("isJumping", true);
-            Debug.Log("doing stuff;");
+            //Debug.Log("doing stuff;");
             Debug.Log("Jumping");
         }
     }

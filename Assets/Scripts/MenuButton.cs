@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Button))]
 public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
@@ -27,6 +28,7 @@ public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
             if (btn.interactable)
             {
                 txt.color = baseColor * btn.colors.normalColor * btn.colors.colorMultiplier;
+                
             }
             else
             {
@@ -41,6 +43,8 @@ public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         if (btn.interactable)
         {
             txt.color = baseColor * btn.colors.highlightedColor * btn.colors.colorMultiplier;
+            SceneManager.LoadScene("Forest");
+            Debug.Log("something clicked");
         }
         else
         {
