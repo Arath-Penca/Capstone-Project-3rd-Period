@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Castle.unity
     guid: 9620516711c1e87498c6b5dff26a1b36
+  - enabled: 1
+    path: Assets/Scenes/CreditScreen.unity
+    guid: 20056231cf30c5a47bbd9f7dc84803bb
   m_configObjects: {}

@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class MenuManager : MonoBehaviour
 {
 
-    bool isJumping = false;
-   public void PlayGame()
+    public void PlayGame()
     {
-       
+        SceneManager.LoadScene(1);
     }
 
     public void QuitGame()
@@ -19,9 +18,13 @@ public class MainMenu : MonoBehaviour
         {
             Application.Quit();
         }
-        Debug.Log("working");
+
     }
 
-
-
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
+
+

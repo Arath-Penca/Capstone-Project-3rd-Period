@@ -68,8 +68,6 @@ public class MenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         if (btn.interactable)
         {
             txt.color = baseColor * btn.colors.highlightedColor * btn.colors.colorMultiplier;
-            SceneManager.LoadScene("Forest");
-            Debug.Log("something clicked");
         }
         else
         {
