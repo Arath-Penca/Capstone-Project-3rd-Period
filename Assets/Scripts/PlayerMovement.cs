@@ -44,6 +44,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
         isAttackingBasic = isPlaying(animator, "isAttackingBasic", 0);
 
         float nerfMovePower = 0.0f;
