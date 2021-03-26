@@ -158,5 +158,10 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Getting attacked");
             health--;
         }
+
+        if(collision.tag == "SmashAttack")
+        {
+            health -= 2;
+        }
     }
 }

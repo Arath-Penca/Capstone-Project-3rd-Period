@@ -10,6 +10,8 @@ TagManager:
   - SmashBlade
   - Enemy
   - SlimeAttack
+  - SmashAttack
+  - Boss
   layers:
   - Default
   - TransparentFX

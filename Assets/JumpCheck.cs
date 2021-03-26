@@ -22,6 +22,9 @@ public class JumpCheck : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+        
+
         if(collision.tag == "Ground")
         {
             isJumping = false;
@@ -45,6 +48,12 @@ public class JumpCheck : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        characterAnimator.SetBool("isJumping", false);
+        characterAnimator.SetBool("isAttackingSmash", false);
+    }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if(collision.tag == "Ground")
@@ -53,6 +62,7 @@ public class JumpCheck : MonoBehaviour
 
 
             characterAnimator.SetBool("isJumping", true);
+           
             //Debug.Log("doing stuff;");
             Debug.Log("Jumping");
         }

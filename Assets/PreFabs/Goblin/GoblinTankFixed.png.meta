@@ -1,106 +1,124 @@
 fileFormatVersion: 2
-guid: 377ba715431c72a41977c32393f7a9ed
+guid: 09568c55aa66eb84fbd488ec263f0911
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3119392081193083535
-    second: GoblinScout-Sheet_0
+      213: -7048719873807977674
+    second: GoblinTankFixed_0
   - first:
-      213: -7790965773482385843
-    second: GoblinScout-Sheet_1
+      213: 3325008422672520152
+    second: GoblinTankFixed_1
   - first:
-      213: 2917707144661495698
-    second: GoblinScout-Sheet_2
+      213: 4198214758558955506
+    second: GoblinTankFixed_2
   - first:
-      213: 2281690986800381358
-    second: GoblinScout-Sheet_3
+      213: -1244398742443894564
+    second: GoblinTankFixed_3
   - first:
-      213: -8465236124907072749
-    second: GoblinScout-Sheet_4
+      213: 246609351505017023
+    second: GoblinTankFixed_4
   - first:
-      213: 2448680416331790870
-    second: GoblinScout-Sheet_5
+      213: 6729397070952083973
+    second: GoblinTankFixed_5
   - first:
-      213: -678767138834659836
-    second: GoblinScout-Sheet_6
+      213: -6591778278489247040
+    second: GoblinTankFixed_6
   - first:
-      213: -3407162130823904213
-    second: GoblinScout-Sheet_7
+      213: 1118201748524900919
+    second: GoblinTankFixed_7
   - first:
-      213: 4286454090535726858
-    second: GoblinScout-Sheet_12
+      213: 724776796737948133
+    second: GoblinTankFixed_8
   - first:
-      213: 9144147084250562963
-    second: GoblinScout-Sheet_8
+      213: 8859145975157616224
+    second: GoblinTankFixed_9
   - first:
-      213: 3763019481323839499
-    second: GoblinScout-Sheet_9
+      213: -8442131090501693713
+    second: GoblinTankFixed_10
   - first:
-      213: -3634092871100292846
-    second: GoblinScout-Sheet_10
+      213: 7155960761227870731
+    second: GoblinTankFixed_11
   - first:
-      213: -3476898753015950194
-    second: GoblinScout-Sheet_11
+      213: 1153252005998747414
+    second: GoblinTankFixed_12
   - first:
-      213: -7369411243837293021
-    second: GoblinScout-Sheet_13
+      213: 2156198891885386091
+    second: GoblinTankFixed_13
   - first:
-      213: -5721036693281059708
-    second: GoblinScout-Sheet_14
+      213: -2743509610802609073
+    second: GoblinTankFixed_14
   - first:
-      213: -522791604208759154
-    second: GoblinScout-Sheet_15
+      213: 380472474380301342
+    second: GoblinTankFixed_15
   - first:
-      213: 6916521362629269682
-    second: GoblinScout-Sheet_16
+      213: 7934153148247663468
+    second: GoblinTankFixed_16
   - first:
-      213: 736487377024039345
-    second: GoblinScout-Sheet_17
+      213: 6056250791762425792
+    second: GoblinTankFixed_17
   - first:
-      213: 4546250964430104670
-    second: GoblinScout-Sheet_18
+      213: 7432425493037999936
+    second: GoblinTankFixed_18
   - first:
-      213: -1973618331521520428
-    second: GoblinScout-Sheet_19
+      213: 4405256348787899590
+    second: GoblinTankFixed_19
   - first:
-      213: -2238164439109299335
-    second: GoblinScout-Sheet_20
+      213: 7314805907677721055
+    second: GoblinTankFixed_20
   - first:
-      213: 6496683263963512997
-    second: GoblinScout-Sheet_21
+      213: -5038317055354963817
+    second: GoblinTankFixed_21
   - first:
-      213: -57780830603310561
-    second: GoblinScout-Sheet_22
+      213: 7989190829685766057
+    second: GoblinTankFixed_22
   - first:
-      213: 1368448214548668288
-    second: GoblinScout-Sheet_23
+      213: 5838137099562806478
+    second: GoblinTankFixed_23
   - first:
-      213: 7749011166977149579
-    second: GoblinScout-Sheet_24
+      213: 5429129755342887139
+    second: GoblinTankFixed_24
   - first:
-      213: -5280219208917593868
-    second: GoblinScout-Sheet_25
+      213: 2930744595536378771
+    second: GoblinTankFixed_25
   - first:
-      213: -652943041031453470
-    second: GoblinScout-Sheet_26
+      213: -7056448672798688042
+    second: GoblinTankFixed_26
   - first:
-      213: 5926281897289191874
-    second: GoblinScout-Sheet_27
+      213: 8205945486256430104
+    second: GoblinTankFixed_27
   - first:
-      213: 1074679087985311504
-    second: GoblinScout-Sheet_28
+      213: 40013325049062875
+    second: GoblinTankFixed_28
   - first:
-      213: 7187921519398745149
-    second: GoblinScout-Sheet_29
+      213: -4832407096282123166
+    second: GoblinTankFixed_29
   - first:
-      213: -7533045030188992411
-    second: GoblinScout-Sheet_30
+      213: -8866117204765764429
+    second: GoblinTankFixed_30
   - first:
-      213: -5425837576085483006
-    second: GoblinScout-Sheet_31
+      213: -4547653373694039428
+    second: GoblinTankFixed_31
   - first:
-      213: -1577200084874021450
-    second: GoblinScout-Sheet_32
+      213: 5289825008443697163
+    second: GoblinTankFixed_32
+  - first:
+      213: -1001384672926802247
+    second: GoblinTankFixed_33
+  - first:
+      213: -4528542018149961130
+    second: GoblinTankFixed_34
+  - first:
+      213: -7476799680150949037
+    second: GoblinTankFixed_35
+  - first:
+      213: 6806022524329214304
+    second: GoblinTankFixed_36
+  - first:
+      213: 8952334491763696706
+    second: GoblinTankFixed_37
+  - first:
+      213: 1689266195495632321
+    second: GoblinTankFixed_38
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -131,7 +149,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -142,11 +160,11 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 1972, z: 673, w: 0}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -154,8 +172,6 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -167,7 +183,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -179,7 +195,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -190,13 +206,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GoblinScout-Sheet_0
+      name: GoblinTankFixed_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 2000
-        width: 390
-        height: 454
+        x: 0
+        y: 212
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17dd15ded61b5b4d0800000000000000
-      internalID: -3119392081193083535
+      spriteID: 6337078de9aed2e90800000000000000
+      internalID: -7048719873807977674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_1
+      name: GoblinTankFixed_1
       rect:
         serializedVersion: 2
-        x: 661
-        y: 2000
-        width: 390
-        height: 454
+        x: 78
+        y: 212
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4e1b5648ede0e390800000000000000
-      internalID: -7790965773482385843
+      spriteID: 8d3d3943b8dc42e20800000000000000
+      internalID: 3325008422672520152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_2
+      name: GoblinTankFixed_2
       rect:
         serializedVersion: 2
-        x: 1262
-        y: 2000
-        width: 374
-        height: 440
+        x: 156
+        y: 212
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29fea2c7037cd7820800000000000000
-      internalID: 2917707144661495698
+      spriteID: 2f775be641e034a30800000000000000
+      internalID: 4198214758558955506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_3
+      name: GoblinTankFixed_3
       rect:
         serializedVersion: 2
-        x: 1860
-        y: 2000
-        width: 375
-        height: 440
+        x: 234
+        y: 212
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ead72731dd13aaf10800000000000000
-      internalID: 2281690986800381358
+      spriteID: cd850b5dfe10bbee0800000000000000
+      internalID: -1244398742443894564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_4
+      name: GoblinTankFixed_4
       rect:
         serializedVersion: 2
-        x: 2461
-        y: 2000
-        width: 391
-        height: 454
+        x: 312
+        y: 212
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +304,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3131c1b5890758a80800000000000000
-      internalID: -8465236124907072749
+      spriteID: fb8feba06e12c6300800000000000000
+      internalID: 246609351505017023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_5
+      name: GoblinTankFixed_5
       rect:
         serializedVersion: 2
-        x: 3060
-        y: 2000
-        width: 390
-        height: 454
+        x: 390
+        y: 212
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,20 +325,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61a79ef6dd57bf120800000000000000
-      internalID: 2448680416331790870
+      spriteID: 50237ae6bfe936d50800000000000000
+      internalID: 6729397070952083973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_6
+      name: GoblinTankFixed_6
       rect:
         serializedVersion: 2
-        x: 3661
-        y: 2000
-        width: 406
-        height: 440
+        x: 468
+        y: 212
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4064d8c22e88496f0800000000000000
-      internalID: -678767138834659836
+      spriteID: 0c23388949c4584a0800000000000000
+      internalID: -6591778278489247040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_7
+      name: GoblinTankFixed_7
       rect:
         serializedVersion: 2
-        x: 4260
-        y: 2000
-        width: 406
-        height: 440
+        x: 546
+        y: 212
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,20 +367,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b24041c081457b0d0800000000000000
-      internalID: -3407162130823904213
+      spriteID: 7322c08d096a48f00800000000000000
+      internalID: 1118201748524900919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_8
+      name: GoblinTankFixed_8
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1502
-        width: 408
-        height: 438
+        x: 0
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,20 +388,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 391cdaa435986ee70800000000000000
-      internalID: 9144147084250562963
+      spriteID: 5e9c20718acee0a00800000000000000
+      internalID: 724776796737948133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_9
+      name: GoblinTankFixed_9
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1502
-        width: 406
-        height: 438
+        x: 78
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +409,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b00ae2be74ee83430800000000000000
-      internalID: 3763019481323839499
+      spriteID: 06ee99e935202fa70800000000000000
+      internalID: 8859145975157616224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_10
+      name: GoblinTankFixed_10
       rect:
         serializedVersion: 2
-        x: 1262
-        y: 1502
-        width: 469
-        height: 438
+        x: 156
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,20 +430,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 211a949b9cb119dc0800000000000000
-      internalID: -3634092871100292846
+      spriteID: fee8d53608687da80800000000000000
+      internalID: -8442131090501693713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_11
+      name: GoblinTankFixed_11
       rect:
         serializedVersion: 2
-        x: 1860
-        y: 1502
-        width: 406
-        height: 438
+        x: 234
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,20 +451,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e845c7a61039fbfc0800000000000000
-      internalID: -3476898753015950194
+      spriteID: b020f9ff5641f4360800000000000000
+      internalID: 7155960761227870731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_12
+      name: GoblinTankFixed_12
       rect:
         serializedVersion: 2
-        x: 2461
-        y: 1502
-        width: 406
-        height: 438
+        x: 312
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0fe664e84b8c7b30800000000000000
-      internalID: 4286454090535726858
+      spriteID: 61fdf0ad69c210010800000000000000
+      internalID: 1153252005998747414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_13
+      name: GoblinTankFixed_13
       rect:
         serializedVersion: 2
-        x: 3060
-        y: 1502
-        width: 406
-        height: 438
+        x: 390
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,20 +493,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32efe4fb4879ab990800000000000000
-      internalID: -7369411243837293021
+      spriteID: b695be7d77b5ced10800000000000000
+      internalID: 2156198891885386091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_14
+      name: GoblinTankFixed_14
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1001
-        width: 376
-        height: 438
+        x: 468
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,20 +514,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48cc106507bca90b0800000000000000
-      internalID: -5721036693281059708
+      spriteID: f448d327b881de9d0800000000000000
+      internalID: -2743509610802609073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_15
+      name: GoblinTankFixed_15
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1001
-        width: 374
-        height: 438
+        x: 546
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,20 +535,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8e849b4ecbaeb8f0800000000000000
-      internalID: -522791604208759154
+      spriteID: e14704a13b5b74500800000000000000
+      internalID: 380472474380301342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_16
+      name: GoblinTankFixed_16
       rect:
         serializedVersion: 2
-        x: 1262
-        y: 1001
-        width: 374
-        height: 438
+        x: 624
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,20 +556,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b81be4b88b6cff50800000000000000
-      internalID: 6916521362629269682
+      spriteID: c6369da5046cb1e60800000000000000
+      internalID: 7934153148247663468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_17
+      name: GoblinTankFixed_17
       rect:
         serializedVersion: 2
-        x: 1860
-        y: 1001
-        width: 375
-        height: 438
+        x: 702
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,20 +577,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b9b3190e57883a00800000000000000
-      internalID: 736487377024039345
+      spriteID: 0c77da9f1002c0450800000000000000
+      internalID: 6056250791762425792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_18
+      name: GoblinTankFixed_18
       rect:
         serializedVersion: 2
-        x: 60
-        y: 500
-        width: 392
-        height: 456
+        x: 780
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,20 +598,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5822a24a27871f30800000000000000
-      internalID: 4546250964430104670
+      spriteID: 04766147b97452760800000000000000
+      internalID: 7432425493037999936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_19
+      name: GoblinTankFixed_19
       rect:
         serializedVersion: 2
-        x: 692
-        y: 500
-        width: 375
-        height: 440
+        x: 858
+        y: 159
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,20 +619,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dce57b859c4c94e0800000000000000
-      internalID: -1973618331521520428
+      spriteID: 6cc79062f4d922d30800000000000000
+      internalID: 4405256348787899590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_20
+      name: GoblinTankFixed_20
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 500
-        width: 375
-        height: 440
+        x: 0
+        y: 106
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,20 +640,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9739af90d4170f0e0800000000000000
-      internalID: -2238164439109299335
+      spriteID: fd13f00b739638560800000000000000
+      internalID: 7314805907677721055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_21
+      name: GoblinTankFixed_21
       rect:
         serializedVersion: 2
-        x: 1908
-        y: 500
-        width: 392
-        height: 440
+        x: 78
+        y: 106
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,20 +661,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a045c6f10bd82a50800000000000000
-      internalID: 6496683263963512997
+      spriteID: 79876c1155d441ab0800000000000000
+      internalID: -5038317055354963817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_22
+      name: GoblinTankFixed_22
       rect:
         serializedVersion: 2
-        x: 2525
-        y: 500
-        width: 406
-        height: 440
+        x: 156
+        y: 106
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,20 +682,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1a001504a8b23ff0800000000000000
-      internalID: -57780830603310561
+      spriteID: 9a77a362bbe4fde60800000000000000
+      internalID: 7989190829685766057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_23
+      name: GoblinTankFixed_23
       rect:
         serializedVersion: 2
-        x: 3126
-        y: 500
-        width: 390
-        height: 456
+        x: 234
+        y: 106
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,20 +703,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08fd0b99664bdf210800000000000000
-      internalID: 1368448214548668288
+      spriteID: ecc6871a2ca350150800000000000000
+      internalID: 5838137099562806478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_24
+      name: GoblinTankFixed_24
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1
-        width: 390
-        height: 454
+        x: 0
+        y: 53
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,20 +724,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a4530b9940a8b60800000000000000
-      internalID: 7749011166977149579
+      spriteID: 3e857ba6fb4285b40800000000000000
+      internalID: 5429129755342887139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_25
+      name: GoblinTankFixed_25
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1
-        width: 374
-        height: 438
+        x: 78
+        y: 53
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f0d544fa94e8b6b0800000000000000
-      internalID: -5280219208917593868
+      spriteID: 39b77509ea81ca820800000000000000
+      internalID: 2930744595536378771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_26
+      name: GoblinTankFixed_26
       rect:
         serializedVersion: 2
-        x: 1262
-        y: 1
-        width: 374
-        height: 438
+        x: 156
+        y: 53
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,20 +766,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e4c1cc73c740f6f0800000000000000
-      internalID: -652943041031453470
+      spriteID: 6dcbe0a9155721e90800000000000000
+      internalID: -7056448672798688042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_27
+      name: GoblinTankFixed_27
       rect:
         serializedVersion: 2
-        x: 1860
-        y: 1
-        width: 390
-        height: 406
+        x: 234
+        y: 53
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,20 +787,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c110ce9cf16e3250800000000000000
-      internalID: 5926281897289191874
+      spriteID: 81cd88a51ff51e170800000000000000
+      internalID: 8205945486256430104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_28
+      name: GoblinTankFixed_28
       rect:
         serializedVersion: 2
-        x: 2461
-        y: 1
-        width: 406
-        height: 375
+        x: 312
+        y: 53
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -792,20 +808,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01fb7e6cfe60aee00800000000000000
-      internalID: 1074679087985311504
+      spriteID: bd5e4d938e72e8000800000000000000
+      internalID: 40013325049062875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_29
+      name: GoblinTankFixed_29
       rect:
         serializedVersion: 2
-        x: 3060
-        y: 1
-        width: 472
-        height: 277
+        x: 390
+        y: 53
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -813,20 +829,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d34f525e980a0c360800000000000000
-      internalID: 7187921519398745149
+      spriteID: 264f6006957dfecb0800000000000000
+      internalID: -4832407096282123166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_30
+      name: GoblinTankFixed_30
       rect:
         serializedVersion: 2
-        x: 3661
-        y: 1
-        width: 501
-        height: 151
+        x: 0
+        y: 0
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -834,20 +850,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5683092f47f357790800000000000000
-      internalID: -7533045030188992411
+      spriteID: 3b415f0806935f480800000000000000
+      internalID: -8866117204765764429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_31
+      name: GoblinTankFixed_31
       rect:
         serializedVersion: 2
-        x: 4260
-        y: 1
-        width: 503
-        height: 151
+        x: 78
+        y: 0
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +871,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 202557cc87d83b4b0800000000000000
-      internalID: -5425837576085483006
+      spriteID: c7a2c53e95d73e0c0800000000000000
+      internalID: -4547653373694039428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoblinScout-Sheet_32
+      name: GoblinTankFixed_32
       rect:
         serializedVersion: 2
-        x: 4861
-        y: 1
-        width: 501
-        height: 151
+        x: 156
+        y: 0
+        width: 78
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -876,8 +892,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b53e5111e8ac1ae0800000000000000
-      internalID: -1577200084874021450
+      spriteID: b08a34881db396940800000000000000
+      internalID: 5289825008443697163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinTankFixed_33
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 78
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be5dae02fd5a12f0800000000000000
+      internalID: -1001384672926802247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinTankFixed_34
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 78
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652bdb917036721c0800000000000000
+      internalID: -4528542018149961130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinTankFixed_35
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 78
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35339dffd421d3890800000000000000
+      internalID: -7476799680150949037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinTankFixed_36
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 78
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06143ff0d69d37e50800000000000000
+      internalID: 6806022524329214304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinTankFixed_37
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 78
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2446d0ce9c41d3c70800000000000000
+      internalID: 8952334491763696706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoblinTankFixed_38
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 78
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdb79997aa717710800000000000000
+      internalID: 1689266195495632321
       vertices: []
       indices: 
       edges: []

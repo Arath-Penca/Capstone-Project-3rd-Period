@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6138401249849488885}
-  - component: {fileID: 6138401249849488884}
+  - component: {fileID: 5541425144371542022}
   m_Layer: 8
   m_Name: Hitbox
   m_TagString: SlimeAttack
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 6138401251221231270}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &6138401249849488884
+--- !u!60 &5541425144371542022
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,18 +56,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.7094383, y: 0.13792247}
-      - {x: -0.9952278, y: 0.13805896}
-      - {x: -1.4927025, y: 0.09175938}
-      - {x: -2.0108595, y: -0.04429531}
-      - {x: -2.0477524, y: -0.7199454}
-      - {x: -2.042108, y: -0.90185314}
-      - {x: -1.894833, y: -1.26792}
-      - {x: -0.6765709, y: -1.2222476}
-      - {x: -0.50953484, y: -0.63592494}
-      - {x: -0.57437325, y: -0.47591507}
-      - {x: -0.50656605, y: -0.17905825}
-      - {x: -0.5211649, y: 0.093791604}
+    - - {x: 0.4479103, y: 1.4532585}
+      - {x: -0.38486958, y: 0.50592303}
+      - {x: -1.4669876, y: 0.9360772}
+      - {x: -1.9503407, y: -0.2566812}
+      - {x: -0.07750738, y: -0.4225595}
+      - {x: 0.041169167, y: -0.101899505}
 --- !u!1 &6138401251221231324
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,12 +138,12 @@ SpriteRenderer:
   m_SortingLayerID: -1327312761
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3119392081193083535, guid: 377ba715431c72a41977c32393f7a9ed, type: 3}
+  m_Sprite: {fileID: -2584911498809040656, guid: ea9e510599c2a5649830700f23944f90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.9006095, y: 4.54}
+  m_Size: {x: 2.375, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -187,18 +181,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.27908993, y: -0.34147525}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.9006095, y: 4.54}
-    newSize: {x: 3.9006095, y: 4.54}
+    oldSize: {x: 2.375, y: 2}
+    newSize: {x: 2.375, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 4.54}
+  m_Size: {x: 0.9378395, y: 1.2057014}
   m_EdgeRadius: 0
 --- !u!50 &6138401251221231322
 Rigidbody2D:

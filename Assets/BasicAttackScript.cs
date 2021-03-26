@@ -11,13 +11,20 @@ public class BasicAttackScript : MonoBehaviour
     public Rigidbody2D rigidbody2D;
     public Animator animator;
 
+    public float distanceSeek = 7.0f;
+    public float speed = 0.01f;
+
     public int health = 100;
+    public float originalScale = 0;
+
+    public float attackDis = 1.5f;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        originalScale = transform.localScale.x;
     }
 
     // Update is called once per frame
@@ -26,21 +33,29 @@ public class BasicAttackScript : MonoBehaviour
 
         if(health <= 0)
         {
-            Destroy(gameObject);
+            if(gameObject.tag == "Boss")
+            {
+                // transfer to the congratutatlinnons slkdfjslkd room;
+            }
+            else
+            {Destroy(gameObject);
+
+            }
+            
         }
         float distance_from_player = Vector2.Distance(player.position, transform.position);
         //Debug.Log(distance_from_player);
 
-        if (distance_from_player < 7 && distance_from_player > 1.5)
+        if (distance_from_player < distanceSeek && distance_from_player > attackDis)
         {
-            Vector2 newDis = Vector2.MoveTowards(transform.position, player.position, 0.01f);
+            Vector2 newDis = Vector2.MoveTowards(transform.position, player.position, speed);
             transform.position = new Vector2(newDis.x, transform.position.y);
             //rigidbody2D.pos
             //Debug.Log("Moving towards");
             animator.SetBool("isIdle", false);
             animator.SetBool("isAttacking", false);
             animator.SetBool("isPacing", true);
-        }else if(distance_from_player < 1.5)
+        }else if(distance_from_player < attackDis)
         {
             //Vector2 newDis = Vector2.MoveTowards(transform.position, player.position, 0.001f);
             //transform.position = new Vector2(newDis.x, transform.position.y);
@@ -59,11 +74,11 @@ public class BasicAttackScript : MonoBehaviour
 
         if (transform.position.x > player.transform.position.x)
         {
-            transform.localScale = new Vector2(1, transform.localScale.y);
+            transform.localScale = new Vector2(originalScale, transform.localScale.y);
         }
         else
         {
-            transform.localScale = new Vector2(-1, transform.localScale.y);
+            transform.localScale = new Vector2(-originalScale, transform.localScale.y);
         }
 
     }
@@ -86,14 +101,14 @@ public class BasicAttackScript : MonoBehaviour
         {
             Debug.Log("Got Hib by basic");
             health -= 15;
-            rigidbody2D.velocity = new Vector2(dir * 10, rigidbody2D.velocity.y);
+            rigidbody2D.velocity = new Vector2(dir * 20, rigidbody2D.velocity.y);
         }
 
         if (collision.tag == "ComplexBlade")
         {
             Debug.Log("Got Hib by Complex");
             health -= 50;
-            rigidbody2D.velocity = new Vector2(dir * 20, rigidbody2D.velocity.y);
+            rigidbody2D.velocity = new Vector2(dir * 25, rigidbody2D.velocity.y);
         }
 
         if (collision.tag == "SmashBlade")
